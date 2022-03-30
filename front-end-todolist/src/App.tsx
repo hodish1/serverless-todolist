@@ -1,8 +1,11 @@
 import { Layout } from './components/Layout';
+import { LayoutHOC } from './components/LayoutHOC';
 
 function App() {
   return (
-    <Layout/>
+    <LayoutHOC>
+      <Layout />
+    </LayoutHOC>
   );
 }
 
